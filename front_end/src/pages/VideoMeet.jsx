@@ -15,7 +15,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 
 
 // let server_url="http://localhost:8000";
-const server_url = process.env.REACT_APP_SERVER_URL || "http://localhost:8000";
+let server_url = "https://mymeet-389n.onrender.com";
 
 var connections = {};
 
